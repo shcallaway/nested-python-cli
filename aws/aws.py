@@ -1,7 +1,7 @@
 import click
 
-from aws import ecr
-from aws import ecs
+import ecr
+import ecs
 
 
 @click.group()

@@ -3,21 +3,19 @@
 import click
 
 from aws import aws
+from k8s import k8s
 
 
 @click.group()
-def cli():
+def foo():
     pass
 
 
-@cli.command()
+@foo.command()
 def version():
     """Display the current version."""
     click.echo(_read_version())
 
 
-cli.add_command(aws.aws)
-
-
-if __name__ == '__main__':
-    cli()
+foo.add_command(aws.aws)
+foo.add_command(k8s.k8s)
