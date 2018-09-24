@@ -1,6 +1,6 @@
-# Nested CLI
+# Nested Python CLI
 
-An example of how to build a nested command-line interface with Python. This project uses a nifty package called [Click](http://click.pocoo.org/5/).
+An example of how to build a nested command-line interface with Python. The inspiration for this project was the [AWS CLI](https://aws.amazon.com/cli).
 
 ## Installation
 
@@ -18,7 +18,7 @@ foo
 
 ## Bash Completion
 
-Bash completion is extremely covenient:
+What is it?
 
 ```
 $ foo
